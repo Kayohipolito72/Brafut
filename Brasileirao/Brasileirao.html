@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importando Remix Icons para os ícones do menu -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Importando Font Awesome para os ícones das redes sociais -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Brafut - brasileirão</title>
+</head>
+<nav class="navbar">
+    <div class="logo">
+        <img src="" alt="" height="50px">
+    </div>
+    <div class="links">
+        <ul class="nav-itens">
+            <li><a href="../Noticias/noticias.html" target="_self">Notícias</a></li>
+            <li><a href="../comp/competiçao.html" target="_self">Competições</a></li>
+            <li><a href="../jogos/jogo.html" target="_self">Jogos</a></li>
+        </ul>
+    </div>
+    <div class="btn">
+        <button class="cadastro" onclick="window.location.href='../index.html'">Home</button>
+    </div>
+</nav>
+<body>
+
+    <div class="container">
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Athletico Paranaense.jfif">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Atlético-PR</h2>
+                <p class="card-description">
+                    O Athletico Paranaense, fundado em 1924, é um clube tradicional de Curitiba, conhecido pelo uniforme vermelho e preto. Destaca-se por conquistas como o Campeonato Brasileiro (2001), Copa do Brasil (2019) e a Copa Sul-Americana (2018), além de ter a Arena da Baixada, um dos estádios mais modernos do Brasil.
+                </p>
+                <div class="more-info" id="moreInfo1" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Atlético-GO.jfif">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Atlético-GO</h2>
+                <p class="card-description">
+                    O Atlético Goianiense, fundado em 1937, é um dos principais clubes de Goiás. Com destaque no Campeonato Goiano e no Campeonato Brasileiro, o clube conquistou a Série B em 1990 e 2016. Sua torcida é fiel, e o estádio Antônio Accioly é um dos mais tradicionais do estado.
+                </p>
+                <div class="more-info" id="moreInfo2" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Atlético-MG.jfif">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Atlético-MG</h2>
+                <p class="card-description">
+                    O Atlético Goianiense, fundado em 1937, é um dos principais clubes de Goiás. Com destaque no Campeonato Goiano e no Campeonato Brasileiro, o clube conquistou a Série B em 1990 e 2016. Sua torcida é fiel, e o estádio Antônio Accioly é um dos mais tradicionais do estado.
+                </p>
+                <div class="more-info" id="moreInfo3" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/bahia.jfif">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Bahia</h2>
+                <p class="card-description">
+                    O Bahia, fundado em 1931, é um dos clubes mais tradicionais do futebol brasileiro, localizado em Salvador. Campeão brasileiro em 1959 e 1988, e vencedor da Copa do Brasil em 2002, o clube também é forte no Campeonato Baiano. Sua torcida é apaixonada, e a Arena Fonte Nova é seu estádio.
+                </p>
+                <div class="more-info" id="moreInfo4" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/botafogo.jfif">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Botafogo</h2>
+                <p class="card-description">
+                    O Botafogo, fundado em 1904, é um dos clubes mais tradicionais do Rio de Janeiro. Campeão brasileiro em 1968 e vencedor da Copa do Brasil em 1993 e 1998, o clube tem uma grande história e torcida. Seu estádio é o Nilton Santos (Engenhão).
+                </p>
+                <div class="more-info" id="moreInfo5" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="container">
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Corinthians.jpg">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Corinthians</h2>
+                <p class="card-description">
+                    O Corinthians, fundado em 1910, é um dos maiores clubes do Brasil, com sete títulos do Campeonato Brasileiro, três Copas do Brasil e uma Libertadores (2012). Campeão mundial em 2000, o clube tem uma torcida gigante e seu estádio é a Arena Corinthians.
+                </p>
+                <div class="more-info" id="moreInfo1" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Cuiabá.jfif">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Cuiabá</h2>
+                <p class="card-description">
+                    O Cuiabá, fundado em 2001, é um clube de Mato Grosso que chegou à Série A do Campeonato Brasileiro em 2020. Tem destaque no Campeonato Mato-Grossense e joga na Arena Pantanal.
+                </p>
+                <div class="more-info" id="moreInfo2" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Flamengo.jfif">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Flamengo</h2>
+                <p class="card-description">
+O Flamengo, fundado em 1895, é um dos maiores clubes do Brasil, com 8 títulos do Campeonato Brasileiro, 4 Copas do Brasil e 6 Copas Libertadores. Campeão mundial em 1981 e 2019, o clube tem a maior torcida do país e manda seus jogos no Maracanã.
+                </p>
+                <div class="more-info" id="moreInfo3" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Fluminense.jpeg">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Fluminense</h2>
+                <p class="card-description">
+                    O Fluminense, fundado em 1902, é um dos clubes mais tradicionais do Rio, com 4 títulos do Campeonato Brasileiro e várias conquistas estaduais. Vencedor da Copa do Brasil em 2007, o clube manda seus jogos no Maracanã.
+                </p>
+                <div class="more-info" id="moreInfo4" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/fortaleza.jpg">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Fortaleza</h2>
+                <p class="card-description">
+                    O Fortaleza, fundado em 1918, é um dos maiores clubes do Nordeste, com destaque no Campeonato Cearense e na Série A do Brasileiro. O time também teve boas campanhas na Copa do Brasil e na Libertadores, jogando na Arena Castelão.
+                </p>
+                <div class="more-info" id="moreInfo5" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="container">
+            <div class="card" data-aos="fade-down">
+                <div class="card-image">
+                    <img src="./img/gremio.jfif">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Gremio</h2>
+                    <p class="card-description">
+                        O Grêmio, fundado em 1903, é um dos clubes mais tradicionais do Brasil, com 5 títulos do Campeonato Brasileiro, 6 Copas do Brasil e 3 Copas Libertadores. Vencedor do Mundial de Clubes em 1983 e 2017, o clube manda seus jogos na Arena do Grêmio.
+                    </p>
+                    <div class="more-info" id="moreInfo1" style="display: none;">
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" data-aos="fade-down">
+                <div class="card-image">
+                    <img src="./img/Internacional.jpg">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Internacional</h2>
+                    <p class="card-description">
+                        O Internacional, fundado em 1909, é um dos maiores clubes do Brasil, com 3 títulos do Campeonato Brasileiro, 2 Copas do Brasil e 2 Copas Libertadores. Vencedor do Mundial de Clubes em 2006 e 2010, o clube manda seus jogos no Estádio Beira-Rio.
+                    </p>
+                    <div class="more-info" id="moreInfo2" style="display: none;">
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" data-aos="fade-down">
+                <div class="card-image">
+                    <img src="./img/palmeiras.jpg">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Palmeiras</h2>
+                    <p class="card-description">
+                        O Palmeiras, fundado em 1914, é um dos clubes mais vitoriosos do Brasil, com 11 títulos do Campeonato Brasileiro, 4 Copas do Brasil e 2 Copas Libertadores. Vencedor do Mundial de Clubes em 1951 e 2020, o clube manda seus jogos no Allianz Parque.
+                    </p>
+                    <div class="more-info" id="moreInfo3" style="display: none;">
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" data-aos="fade-down">
+                <div class="card-image">
+                    <img src="./img/Red Bull Bragantino.jfif">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Red Bull Bragantino</h2>
+                    <p class="card-description">
+                        O Red Bull Bragantino, fundado em 1928 e reformulado em 2019, é um clube em ascensão no futebol brasileiro. Vencedor da Copa Sul-Americana em 2020, o time se destaca pela gestão moderna e foco em jovens talentos. Joga no Estádio Nabi Abi Chedid, em Bragança Paulista.
+                    </p>
+                    <div class="more-info" id="moreInfo4" style="display: none;">
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" data-aos="fade-down">
+                <div class="card-image">
+                    <img src="./img/São Paulo.jfif">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">São Paulo</h2>
+                    <p class="card-description">
+                        O São Paulo, fundado em 1930, é um dos clubes mais vitoriosos do Brasil, com 6 títulos do Campeonato Brasileiro, 3 Copas Libertadores e 3 Mundiais de Clubes. O time joga no Estádio do Morumbi e tem uma torcida apaixonada.
+                    </p>
+                    <div class="more-info" id="moreInfo5" style="display: none;">
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="container">
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Cruzeiro.jpg">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Cruzeiro</h2>
+                <p class="card-description">
+                    O Cruzeiro, fundado em 1921, é um dos clubes mais vitoriosos do Brasil, com 4 títulos do Campeonato Brasileiro, 6 Copas do Brasil e 2 Copas Libertadores. O time joga no Estádio Mineirão e tem uma grande torcida.
+                </p>
+                <div class="more-info" id="moreInfo1" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/vasco.jfif">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Vasco</h2>
+                <p class="card-description">
+                    O Vasco da Gama, fundado em 1898, é um dos clubes mais tradicionais do futebol brasileiro. Com 4 títulos do Campeonato Brasileiro, 1 Copa do Brasil e 1 Copa Libertadores, o clube tem uma história rica e uma das maiores torcidas do país. O Vasco também é conhecido por sua importância social e pela inclusão de atletas negros no futebol. O time manda seus jogos no **Estádio São Januário**, no Rio de Janeiro.
+                </p>
+                <div class="more-info" id="moreInfo2" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/vitoria.jpg">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Vitoria</h2>
+                <p class="card-description">
+                    O Vitória, fundado em 1899, é um clube tradicional da Bahia, com 4 títulos do Campeonato Brasileiro da Série A e vários campeonatos estaduais. O time manda seus jogos no Estádio Barradão, em Salvador.
+                </p>
+                <div class="more-info" id="moreInfo3" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Juventude.jpg">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Juventude</h2>
+                <p class="card-description">
+                    O Juventude, fundado em 1913, é um clube de Caxias do Sul, com o título do Campeonato Brasileiro de 1993 e várias conquistas estaduais. O time manda seus jogos no Estádio Alfredo Jaconi.
+                </p>
+                <div class="more-info" id="moreInfo4" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="fade-down">
+            <div class="card-image">
+                <img src="./img/Criciúma.jpg">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Criciúma</h2>
+                <p class="card-description">
+                    O Criciúma, fundado em 1947, é um clube tradicional de Santa Catarina. Com destaque no cenário nacional, o time conquistou o Campeonato Brasileiro em 1986 e vários títulos estaduais. O Criciúma também teve boas campanhas na Copa do Brasil e na Copa Libertadores. Sua torcida é fiel, e o clube manda seus jogos no Estádio Heriberto Hülse, em Criciúma.
+                </p>
+                <div class="more-info" id="moreInfo5" style="display: none;">
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Sobre o Brafut</h4>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Nossa missão</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Futebol no Mundo</h4>
+                    <ul>
+                        <li><a href="#">Notícias de Times</a></li>
+                        <li><a href="#">Campeonatos</a></li>
+                        <li><a href="#">Transferências</a></li>
+                        <li><a href="#">Análises e Opiniões</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Fique Atualizado</h4>
+                    <ul>
+                        <li><a href="#">Últimas notícias</a></li>
+                        <li><a href="#">Resultados ao vivo</a></li>
+                        <li><a href="#">Calendário de jogos</a></li>
+                        <li><a href="#">Entrevistas exclusivas</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Assine nossa newsletter!</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu e-mail" required>
+                            <button>Assine</button>
+                        </form>
+                    </div>
+
+                </div>
+                <!--end footer col-->
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

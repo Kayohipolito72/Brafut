@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brafut</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="" alt="" height="50px">
+        </div>
+        <div class="links">
+            <ul class="nav-itens">
+                <li><a href="Noticias/noticias.html" target="_self">Notícias</a></li>
+                <li><a href="Brasileirao/Brasileirao.html" target="_self">Brasileirão</a></li>
+                <li><a href="comp/competiçao.html" target="_self">Competições</a></li>
+                <li><a href="jogos/jogo.html" target="_self">Jogos</a></li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button class="cadastro" onclick="window.location.href='../Login e Registro/index.html'">Participe!</button>
+        </div>
+    </nav>
+
+    <section class="noticias">
+
+        <div class="noticia card">
+            <img src=".//img/flamengo x palmeiras" alt="Flamengo vs Palmeiras" class="card-img">
+            <div class="conteudo">
+                <h3><a href="#">Flamengo 2 x 1 Palmeiras - Vitória Suada</a></h3>
+                <p><strong>Data do Jogo:</strong> 12/11/2024</p>
+                <p>Em uma partida emocionante, o Flamengo venceu o Palmeiras por 2 a 1 no Maracanã, com gols de Gabigol e Pedro.</p>
+                <div class="conteudo-completo" style="display: none;">
+                    <p>O Flamengo controlou grande parte do jogo, mas o Palmeiras mostrou resistência e conseguiu empatar no segundo tempo com um gol de Rony. No entanto, Gabigol garantiu a vitória com um gol nos minutos finais, após belo passe de Arrascaeta. A vitória coloca o Flamengo ainda mais perto do título do Brasileirão.</p>
+                </div>
+                <a href="javascript:void(0);" class="expandir" onclick="expandirConteudo(this)">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="noticia card">
+            <img src="./img/atletico mg x gremio" alt="Atlético-MG vs Grêmio" class="card-img">
+            <div class="conteudo">
+                <h3><a href="#">Atlético-MG 1 x 1 Grêmio - Empate Fora de Casa</a></h3>
+                <p><strong>Data do Jogo:</strong> 11/11/2024</p>
+                <p>Atlético-MG e Grêmio empataram em 1 a 1 no Mineirão. Hulk marcou para o Galo e Ferreira empatou para o Grêmio.</p>
+                <div class="conteudo-completo" style="display: none;">
+                    <p>O Atlético-MG começou melhor e abriu o placar com Hulk, mas o Grêmio não se deixou abalar e respondeu com um gol de Ferreira. Ambos os times tentaram buscar a vitória no segundo tempo, mas as defesas se mantiveram firmes. O empate mantém o Atlético-MG na parte de cima da tabela, enquanto o Grêmio segue na luta por uma vaga na Libertadores.</p>
+                </div>
+                <a href="javascript:void(0);" class="expandir" onclick="expandirConteudo(this)">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="noticia card">
+            <img src="./img/São Paulo x fluminense -" alt="São Paulo vs Fluminense" class="card-img">
+            <div class="conteudo">
+                <h3><a href="#">São Paulo 3 x 2 Fluminense - Jogo de Virada</a></h3>
+                <p><strong>Data do Jogo:</strong> 10/11/2024</p>
+                <p>São Paulo derrotou o Fluminense por 3 a 2, em uma virada incrível no Morumbi.</p>
+                <div class="conteudo-completo" style="display: none;">
+                    <p>O Fluminense abriu o placar com Jhon Arias, mas o São Paulo reagiu no segundo tempo com gols de Luciano e Caleri, que viraram o jogo. No fim, Fred empatou para o Flu, mas foi Reinaldo quem selou a vitória para o Tricolor Paulista com um gol de pênalti. O São Paulo segue firme na busca por uma vaga na Libertadores.</p>
+                </div>
+                <a href="javascript:void(0);" class="expandir" onclick="expandirConteudo(this)">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="noticia card">
+            <img src="./img/internacional x santoss.webp" alt="Internacional vs Santos" class="card-img">
+            <div class="conteudo">
+                <h3><a href="#">Internacional 2 x 0 Santos - Triunfo no Beira-Rio</a></h3>
+                <p><strong>Data do Jogo:</strong> 09/11/2024</p>
+                <p>Internacional venceu o Santos por 2 a 0 em casa, com gols de Edenilson e Taison.</p>
+                <div class="conteudo-completo" style="display: none;">
+                    <p>O Internacional dominou o jogo no Beira-Rio e mostrou sua força com dois gols, um em cada tempo. Edenilson abriu o placar com um chute de fora da área, enquanto Taison selou a vitória com um gol de cabeça após cruzamento de Moisés. O Santos tentou reagir, mas não conseguiu chegar ao gol. O Inter segue sua caminhada na parte de cima da tabela.</p>
+                </div>
+                <a href="javascript:void(0);" class="expandir" onclick="expandirConteudo(this)">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="noticia card">
+            <img src="./img/flamengo x atlético mg.webp" alt="Flamengo vs Atlético-MG" class="card-img">
+            <div class="conteudo">
+                <h3><a href="#">Flamengo 1 x 0 Atlético-MG - Vitória Sofrida</a></h3>
+                <p><strong>Data do Jogo:</strong> 08/11/2024</p>
+                <p>Flamengo venceu o Atlético-MG por 1 a 0 no Maracanã, com gol de Pedro.</p>
+                <div class="conteudo-completo" style="display: none;">
+                    <p>A partida foi marcada pela forte marcação de ambos os times, mas Pedro, em um chute preciso no segundo tempo, garantiu os três pontos para o Flamengo. O Atlético-MG pressionou no final, mas o goleiro Santos fez defesas importantes. A vitória coloca o Flamengo mais perto da liderança do campeonato.</p>
+                </div>
+                <a href="javascript:void(0);" class="expandir" onclick="expandirConteudo(this)">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="noticia card">
+            <img src="img/Corinthians 0 x 2 Palmeiras.jpg" alt="Corinthians vs Palmeiras" class="card-img">
+            <div class="conteudo">
+                <h3><a href="#">Corinthians 0 x 2 Palmeiras - Derrota em Casa</a></h3>
+                <p><strong>Data do Jogo:</strong> 07/11/2024</p>
+                <p>Palmeiras derrotou o Corinthians por 2 a 0 no clássico paulista, com gols de Gustavo Gómez e Rony.</p>
+                <div class="conteudo-completo" style="display: none;">
+                    <p>O Palmeiras controlou a partida desde o início, com uma defesa sólida e contra-ataques rápidos. Gustavo Gómez abriu o placar após cobrança de escanteio, e Rony ampliou a vantagem com um gol em jogada individual. O Corinthians não conseguiu reagir e sofreu a derrota em casa. Palmeiras segue em busca do topo da tabela.</p>
+                </div>
+                <a href="javascript:void(0);" class="expandir" onclick="expandirConteudo(this)">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="noticia card">
+            <img src="./img/Botafogo 1 x 1 Vasco -.jpg" alt="Botafogo vs Vasco" class="card-img">
+            <div class="conteudo">
+                <h3><a href="#">Botafogo 1 x 1 Vasco - Empate no Clássico Carioca</a></h3>
+                <p><strong>Data do Jogo:</strong> 06/11/2024</p>
+                <p>Botafogo e Vasco empataram em 1 a 1 em um clássico carioca equilibrado no Engenhão.</p>
+                <div class="conteudo-completo" style="display: none;">
+                    <p>O Botafogo saiu na frente com um gol de Chay no primeiro tempo, mas o Vasco empatou no segundo tempo com Talles Magno. O jogo foi intenso, com ambas as equipes buscando a vitória, mas as defesas se saíram bem nos momentos decisivos. O empate mantém ambos os times em posições intermediárias na tabela.</p>
+                </div>
+                <a href="javascript:void(0);" class="expandir" onclick="expandirConteudo(this)">Leia mais</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Sobre o Brafut</h4>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Nossa missão</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Futebol no Mundo</h4>
+                    <ul>
+                        <li><a href="#">Notícias de Times</a></li>
+                        <li><a href="#">Campeonatos</a></li>
+                        <li><a href="#">Transferências</a></li>
+                        <li><a href="#">Análises e Opiniões</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Fique Atualizado</h4>
+                    <ul>
+                        <li><a href="#">Últimas notícias</a></li>
+                        <li><a href="#">Resultados ao vivo</a></li>
+                        <li><a href="#">Calendário de jogos</a></li>
+                        <li><a href="#">Entrevistas exclusivas</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Assine nossa newsletter!</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu e-mail" required>
+                            <button>Assine</button>
+                        </form>
+                    </div>
+
+                </div>
+                <!--end footer col-->
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
